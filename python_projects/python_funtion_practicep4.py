@@ -21,3 +21,11 @@ def multi_list(lst):
 print(multi_list([1,2,3]))
 print(multi_list([]))
 print(multi_list([15]))
+
+def rev_string(my_str):
+    return my_str[::-1]
+
+print(rev_string(""))
+print(rev_string("apple"))
+print(rev_string("mt string"))
+
